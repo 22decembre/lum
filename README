@@ -1,0 +1,14 @@
+LUM (pour Ldap User Management, faute de mieux pour l'instant) est destiné à constituer un outil d'administration pour un LDAP facile à utiliser.
+
+Il sera basé sur Flask.
+
+Les administrateurs du logiciel seront les membres du groupe sudo ou admin => laisser dispo à configurer !
+
+On doit :
+- pouvoir créer des utilisateurs ldap (humains ou systeme, suivant les besoins, avec des configs adaptés pour chaque)
+- pouvoir créer des groupes ldap (humains ou/et systeme...)
+- pouvoir mettre à jour son mot de passe et d'autres infos interessantes comme un avatar/photo -> et pouvoir l'utiliser comme avatar de réseaux sociaux/MI avec pavatar ou/et hcards
+
+autres fonctions interessantes :
+- à la création d'un utilisateur, on lui crée un courriel avec quelques instructions et une clé gpg ?
+- peut être pourrait-on gerer autre chose que des comptes unix/personnes (des machines : adresses ip + dns + mac pour le dhcp ?)
