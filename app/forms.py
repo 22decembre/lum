@@ -2,7 +2,8 @@
 
 import flask
 from models import User
-from flask.ext.wtf import Form, Field, TextField, PasswordField, BooleanField, DateField, HiddenField, IntegerField, DecimalField, TextAreaField, QuerySelectField, FileField, file_allowed, validators, Required
+from flask.ext.wtf import Form
+from wtforms import TextField, PasswordField, BooleanField, DateField, HiddenField, IntegerField, DecimalField, TextAreaField, FileField, validators
 from werkzeug import secure_filename
 
 class LoginForm(Form):

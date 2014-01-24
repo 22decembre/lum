@@ -11,6 +11,8 @@ LANG = 'fr'
 
 #ldap auth
 LDAP_HOST = 'blackblock.22decembre.eu'
-LDAP_DOMAIN = '22decembre.eu'
-LDAP_BASE_DN = 'ou=users,dc=22decembre,dc=eu'
+DOMAIN = '22decembre.eu'
+LDAP_BASE = 'dc=22decembre,dc=eu'
+LDAP_GROUPS = 'ou=groups'
+LDAP_USERS  = 'ou=users'
 LDAP_ID = 'uid'

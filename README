@@ -2,6 +2,13 @@ LUM (pour Ldap User Management, faute de mieux pour l'instant) est destiné à c
 
 Il sera basé sur Flask.
 
+dépendances :
+flask-ldap
+flask-wtf
+flask-login
+simpleldap
+python-ldap
+
 Les administrateurs du logiciel seront les membres du groupe sudo ou admin => laisser dispo à configurer !
 
 On doit :
